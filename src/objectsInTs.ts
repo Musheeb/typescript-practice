@@ -90,3 +90,34 @@ const HundredEnglish: HundredCricket = {
   format: "Hundreds (English league)",
   isLimitedOvers: true,
 };
+
+type Cricket = {
+  format: string;
+  overs: number;
+  isLimited: boolean;
+  description: string;
+};
+
+const t20: Cricket = {
+  format: "T20",
+  overs: 20,
+  isLimited: true,
+  description:
+    "This is the cricket where players are tested brutally. The pace of the game is so fast that a player can not get a time settle. But those who get, will dominate the format.",
+};
+
+const odi: Cricket = {
+  format: "ODI (One Day International)",
+  overs: 50,
+  isLimited: true,
+  description:
+    "This is the format where players get time to settle, strategize things, get enough time to implement planes, and experiment things.",
+};
+
+const test: Cricket = {
+  format: "Test Cricket",
+  overs: 90,
+  isLimited: false,
+  description:
+    "This is the game of temprament. Not everyone can play this. It stays for 5 days. You have to be on ground whole day, fielding or batting as per your current conditions. ",
+};
