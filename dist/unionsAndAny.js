@@ -10,9 +10,11 @@ let status = "success";
 let currentValue;
 //Annotated/defined any
 let username;
+//Recommended - Always avoid any.
+let evenNumber;
 const array = [1, 2, 3, 4, 5];
 for (let number of array) {
-    if (number === 1) {
+    if (number === 5) {
         currentValue = number;
         break;
     }
