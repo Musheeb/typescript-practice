@@ -10,4 +10,4 @@ age = 40;
 age = "hey";
 age = "ABD";
 //Below code is not valid with unknown.
-console.log(age.toUpperCase());
+// console.log(age.toUpperCase());
